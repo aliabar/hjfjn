@@ -1,6 +1,7 @@
 
 .t1{
-    height: 80vh ;
+   max-height: 80vh ;
+   margin-bottom: 10px;
 }
 .we{
     width: 100%;
@@ -10,18 +11,18 @@
 .but{
     padding: 10px 12px;
     border-radius: 30px;
-    
-    background-color: #252525;
+    border: none;
+    background-color:#0d6efd;
     margin: 10px 0px;
 }
 .but:hover a{
     color: white;
 }
 .but:hover{
-    background-color: #743737;
+    background-color: #376874;
 }
 .but a{
-    color: crimson;
+    color: white;
 }
  a{
     text-decoration: none !important;
@@ -38,7 +39,8 @@
 }
 .kf{
     padding: 25px 0px;
-    background-color: #6c757d;
+    background-color: #0d6efd;
+    
 }
 body{
     direction: rtl;
@@ -58,5 +60,13 @@ margin-bottom: 20px;
     margin-bottom: 3px;
 }
 .al1 ul li :hover{
-    color: crimson;
+    color: #0d6efd;
+}
+.sdf{
+    color: white !important;
+    border: none !important;
+    background-color:#0d6efd  !important;
+}
+.sdf:hover{
+    background-color: #376874 !important;
 }
